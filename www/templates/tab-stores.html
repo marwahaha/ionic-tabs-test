@@ -1,0 +1,9 @@
+<ion-view title="Stores">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="store in stores" type="item-text-wrap" href="#/tab/store/{{store.id}}">
+        {{store.name}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
