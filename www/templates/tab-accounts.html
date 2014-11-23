@@ -1,0 +1,12 @@
+<ion-view title="Accounts">
+  <ion-content class="padding">
+    <h1>Accounts</h1>
+    <h4>Get accounts via WebSQL Database</h4>
+    <ion-list>
+      <ion-item ng-repeat="account in accounts" type="item-text-wrap">
+        {{account.name}}
+      </ion-item>
+    </ion-list>
+
+  </ion-content>
+</ion-view>

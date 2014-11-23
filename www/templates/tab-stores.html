@@ -1,5 +1,6 @@
 <ion-view title="Stores">
   <ion-content>
+  	<h4>Get stores from online REST Service (offline data on error)</h4>
     <ion-list>
       <ion-item ng-repeat="store in stores" type="item-text-wrap" href="#/tab/store/{{store.id}}">
         {{store.name}}
