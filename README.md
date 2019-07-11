@@ -30,5 +30,5 @@ Then the project was modified to use these :
 
 
     TODO: 
-        - Using sqlLite ngCordova extension instead of WebSQL (abandonned but works with Chrome)
+        - Using sqlLite ngCordova extension instead of WebSQL (abandoned but works with Chrome)
         - Possibility to remove/add accounts
